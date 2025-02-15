@@ -3,4 +3,4 @@ build:
 	swift build
 
 run:
-	swift run
+	doppler run -- swift run

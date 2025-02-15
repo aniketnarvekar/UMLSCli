@@ -4,3 +4,14 @@
 
 A SwiftPM Command Line tool to access UMLS REST API. The inspiration of the project is to create a
 real-world example for UMLSClient library.
+
+* Usage
+
+The project needs following environment variable to run:
+| variable     | Type   | Description                                       |
+|--------------+--------+---------------------------------------------------|
+| UMLS_HOST    | URL    | The UMLS REST API server base url.                |
+| UMLS_API_KEY | String | The Authentication API Key.                       |
+| UMLS_VERSION | String | The UMLS version (supports from 2008AA to 2024AA) |
+
+The [[file:Makefile][Makefile]] use [[https://docs.doppler.com/docs/cli][Doppler CLI]] to inject environment before ~swift run~.
