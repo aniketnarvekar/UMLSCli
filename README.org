@@ -1,0 +1,6 @@
+#+title: UMLSCli
+
+* Introduction
+
+A SwiftPM Command Line tool to access UMLS REST API. The inspiration of the project is to create a
+real-world example for UMLSClient library.
