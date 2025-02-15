@@ -2,8 +2,8 @@
 
 * Introduction
 
-A SwiftPM Command Line tool to access UMLS REST API. The inspiration of the project is to create a
-real-world example for UMLSClient library.
+A [[https://www.swift.org/documentation/package-manager/][SwiftPM]] Command Line tool to access [[https://documentation.uts.nlm.nih.gov/rest/home.html#endpoints-to-search-and-retrieve-umls-content][UMLS REST API]]. The inspiration of the project is to create a
+real-world example for [[https://github.com/aniketnarvekar/UMLSClient][UMLSClient]] library.
 
 * Usage
 
