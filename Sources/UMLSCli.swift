@@ -1,12 +1,12 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
-// 
+//
 // Swift Argument Parser
 // https://swiftpackageindex.com/apple/swift-argument-parser/documentation
 
 import ArgumentParser
-import UMLSClient
 import Foundation
+import UMLSClient
 
 @main
 struct UMLSCli: AsyncParsableCommand {
